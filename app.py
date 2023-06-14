@@ -38,6 +38,7 @@ def services():
     return "We offer the following services: web development, data analysis, SEO."
 
 
+
 @app.route("/internal")
 def home():
     return "System management portal"
